@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form</title>
+</head>
+<body>
+<h3 align="center"><b>STUDENTS REGISTRATION FORM</b></h3>
+<center>
+<form>
+<table style="border:1px solid #000;boarder-collapse:seperate;border-spacing:1;width:60%;">
+<tr>
+<th style="border:1px solid #000;padding:8px;text-align:left;">
+<label>First Name</label>
+</th>
+<td style="border:1px solid #000;padding:8px;text-align:left;">
+<input type="text" id="first_name" maxlength="30" required>
+</td>
+</tr>
+<tr>
+<th style="border:1px solid #000;padding:8px;text-align:left;">
+<label>Last Name</label>
+</th>
+<td style="border:1px solid #000;padding:8px;text-align:left;">
+<input type="text" id="last_name" maxlength="30" required>
+</td>
+</tr>
+<tr>
+<th style="border:1px solid #000;padding:8px;text-align:left;">
+<label>DOB</label>
+</th>
+<td style="border:1px solid #000;padding:8px;text-align:left;">
+<input type="date" id="dob" required>
+</td>
+</tr>
+<tr>
+<th style="border:1px solid #000;padding:8px;text-align:left;">
+<label>Email ID</label>
+</th>
+<td style="border:1px solid #000;padding:8px;text-align:left;">
+<input type="email" id="email" maxlength="30" required>
+</td>
+</tr>
+<tr>
+<th style="border:1px solid #000;padding:8px;text-align:left;">
+<label>Mobile No:</label>
+</th>
+<td style="border:1px solid #000;padding:8px;text-align:left;">
+<input type="tel" id="mobile_no" maxlength="10" required>
+</td>
+</tr>
+<tr>
+<th style="border:1px solid #000;padding:8px;text-align:left;">
+<label>Gender</label>
+</th>
+<td style="border:1px solid #000;padding:8px;text-align:left;">
+<input type="radio" id="male" name="gender" value="male" required>
+<label for="male">Male</lable>&nbsp&nbsp&nbsp&nbsp
+<input type="radio" id="female" name="gender" value="female" required>
+<label for="male">Female</lable>
+</td>
+</tr>
+<tr>
+<th style="border:1px solid #000;padding:8px;text-align:left;">
+<label>Address:</label>
+</th>
+<td style="border:1px solid #000;padding:8px;text-align:left;">
+<textarea id="address" name="address" rows="4" cols="50" required></textarea>
+</td>
+</tr>
+<tr>
+<th style="border:1px solid #000;padding:8px;text-align:left;">
+<label>City</label>
+</th>
+<td style="border:1px solid #000;padding:8px;text-align:left;">
+<input type="text" id="city" maxlength="30" required>
+</td>
+</tr>
+<tr>
+<th style="border:1px solid #000;padding:8px;text-align:left;">
+<label>Pincode</label>
+</th>
+<td style="border:1px solid #000;padding:8px;text-align:left;">
+<input type="text" id="pin" maxlength="6" required>
+</td>
+</tr>
+<tr>
+<th style="border:1px solid #000;padding:8px;text-align:left;">
+<label>State</label>
+</th>
+<td style="border:1px solid #000;padding:8px;text-align:left;">
+<input type="text" id="state" maxlength="30" required>
+</td>
+</tr>
+<tr>
+<th style="border:1px solid #000;padding:8px;text-align:left;">
+<label>Country</label>
+</th>
+<td style="border:1px solid #000;padding:8px;text-align:left;">
+<select id="country" name="country">
+<option value="Indian">Indian</option>
+<option value="Usa">Usa</option>
+<option value="uk">Uk</option>
+<option value="germany">germany</option>
+</td>
+</tr>
+<tr>
+<th style="border:1px solid #000;padding:8px;text-align:left;">
+<label>Hobbies</label>
+</th>
+<td style="border:1px solid #000;padding:8px;text-align:left;">
+<label>Drawing<label>
+<input type="checkbox" id="draw" name="drawing" required>
+<label>singing<label>
+<input type="checkbox" id="swinging" name="singing" required>
+<label>dancing<label>
+<input type="checkbox" id="dancing" name="dancing" required>
+<label>others<label>
+<input type="text" id="oth" name="drawing" required>
+</td>
+</tr>
+<tr>
+<th style="border:1px solid #000;padding:8px;text-align:left;">
+<label>Qulaification</label>
+</th>
+<td style="border:1px solid #000;padding:8px;text-align:left;">
+<table style="border-collapse:collapse;border:none">
+<tr>
+<th>sr No.</th>
+<th>Examination</th>
+<th>Board</th>
+<th>persentage</th>
+<th>year of passing</th>
+</tr>
+<tr>
+<td>1</td>
+<td>Class</td>
+<td><input type="text" id="brd1" maxlength="30"></td>
+<td><input type="text" id="brd2" maxlength="30"></td>
+<td><input type="text" id="brd3" maxlength="30"></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Class</td>
+<td><input type="text" id="brd1" maxlength="30"></td>
+<td><input type="text" id="brd2" maxlength="30"></td>
+<td><input type="text" id="brd3" maxlength="30"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<th style="boarder:1px solid#000;padding:8px;text_align:left">
+<label>Course applied for </label>
+</th>
+
+<td style="boarder:1px solid#000;padding:8px;text_align:left">
+<label>MCA</label>
+<input type="radio" id="mca" name="mca">
+<label>Mtech</label>
+<input type="radio" id="mca" name="mca">
+<label>Msc</label>
+<input type="radio" id="mca" name="mca">
+</tr>
+<tr>
+<th style="boarder:1px solid#000;padding:8px;text_align:left">
+<label>Enter Password</label>
+</th>
+<th style="boarder:1px solid#000;padding:8px;text_align:left">
+<input type="password" id="password" name="password">
+</td>
+</tr>
+<tr>
+<th style="boarder:1px solid#000;padding:8px;text_align:left">
+<label>upload photo</label>
+</th>
+<td style="boarder:1px solid#000;padding:8px;text_align:left">
+<input type="file" id="photo" name="mca" accept="image">
+</td>
+<tr>
+<th style="boarder:1px solid#000;padding:8px;text_align:left">
+</th>
+<label>date of tc</label>
+</th>
+<td style="boarder:1px solid#000;padding:8px;text_align:left">
+<input type="date" id="dotfc" name="mca">
+<td style="boarder:1px solid#000;padding:8px;text_align:left">
+<input type="submit" value="submit">
+<input type="reset" value="reset">
+</td>
+</tr>
+</table>
+</form>
+</center
+
+</body>
+</html>
